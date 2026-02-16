@@ -19,8 +19,12 @@ export default function Header({ activeSection }: HeaderProps) {
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
+    { id: 'tutoring', label: 'Tutoring' },
     { id: 'projects', label: 'Projects' },
+    { id: 'experience', label: 'Experience' },
     { id: 'skills', label: 'Skills' },
+    { id: 'certifications', label: 'Certifications' },
+    { id: 'hobbies', label: 'Hobbies' },
     { id: 'contact', label: 'Contact' },
   ];
 
@@ -32,7 +36,7 @@ export default function Header({ activeSection }: HeaderProps) {
             onClick={() => scrollToSection('home')}
             className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors"
           >
-            Portfolio
+            Prxzwal
           </button>
 
           <div className="hidden md:flex items-center gap-8">

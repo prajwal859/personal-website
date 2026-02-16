@@ -13,20 +13,20 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
-            Hi, I'm <span className="text-blue-600">Your Name</span>
+            Hi, I'm <span className="text-blue-600">Prajal</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Full Stack Developer & Creative Problem Solver
+            Data Analyst & Tutor
           </p>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, functional web experiences that make a difference.
-            Passionate about clean code, user experience, and turning ideas into reality.
+            Passionate about data-driven insights, education, and helping others grow.
+            I specialize in data analysis and providing quality tutoring across multiple subjects.
           </p>
         </div>
 
         <div className="flex items-center justify-center gap-6 mb-12">
           <a
-            href="https://github.com"
+            href="https://github.com/prajwal859"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
@@ -34,7 +34,7 @@ export default function Hero() {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/prajal-subedi-42a122240/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
@@ -42,7 +42,7 @@ export default function Hero() {
             <Linkedin size={20} />
           </a>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:prajwalsubedi824@gmail.com"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
           >
             <Mail size={20} />

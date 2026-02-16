@@ -1,21 +1,21 @@
-import { Code2, Palette, Rocket } from 'lucide-react';
+import { BarChart3, BookOpen, Award } from 'lucide-react';
 
 export default function About() {
   const features = [
     {
-      icon: Code2,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable code that stands the test of time.',
+      icon: BarChart3,
+      title: 'Data Analysis',
+      description: 'Transforming raw data into actionable insights through statistical analysis and visualization.',
     },
     {
-      icon: Palette,
-      title: 'Beautiful Design',
-      description: 'Creating intuitive interfaces that users love to interact with.',
+      icon: BookOpen,
+      title: 'Education',
+      description: 'Dedicated to helping students excel through personalized tutoring and clear explanations.',
     },
     {
-      icon: Rocket,
-      title: 'Fast Performance',
-      description: 'Optimizing every aspect for speed and seamless user experience.',
+      icon: Award,
+      title: 'Excellence',
+      description: 'Committed to delivering high-quality results and fostering continuous learning.',
     },
   ];
 
@@ -27,31 +27,33 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A passionate developer dedicated to building exceptional digital experiences
+            A data-driven professional passionate about analysis and education
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Building the web, one project at a time
+              Transforming data into insights and inspiring growth
             </h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              I'm a full-stack developer with a passion for creating elegant solutions
-              to complex problems. With expertise in modern web technologies, I bring
-              ideas to life through clean code and thoughtful design.
+              I'm a data analyst and tutor dedicated to unlocking insights from complex datasets
+              and helping students achieve their academic goals. With a strong foundation in
+              statistical analysis and a passion for education, I combine technical expertise
+              with clear communication to make data accessible and learning engaging.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing
-              to open source, or sharing knowledge with the developer community. I believe
-              in continuous learning and pushing the boundaries of what's possible on the web.
+              Whether I'm analyzing datasets or tutoring students, I believe in the power of
+              clear explanations, patience, and continuous improvement. I'm committed to
+              staying current with industry trends and helping others succeed in their
+              educational and professional journeys.
             </p>
           </div>
 
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl shadow-2xl overflow-hidden">
               <div className="w-full h-full flex items-center justify-center text-white">
-                <Code2 size={120} className="opacity-20" />
+                <BarChart3 size={120} className="opacity-20" />
               </div>
             </div>
           </div>

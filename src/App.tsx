@@ -2,8 +2,12 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Projects from './components/Projects';
+import Tutoring from './components/Tutoring';
+import DataAnalysisProjects from './components/DataAnalysisProjects';
+import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
+import Certifications from './components/Certifications';
+import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -12,7 +16,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'skills', 'contact'];
+      const sections = ['home', 'about', 'tutoring', 'projects', 'experience', 'skills', 'certifications', 'hobbies', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -33,8 +37,12 @@ function App() {
       <Header activeSection={activeSection} />
       <Hero />
       <About />
-      <Projects />
+      <Tutoring />
+      <DataAnalysisProjects />
+      <WorkExperience />
       <Skills />
+      <Certifications />
+      <Hobbies />
       <Contact />
       <Footer />
     </div>

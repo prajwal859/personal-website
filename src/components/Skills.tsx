@@ -1,30 +1,34 @@
 export default function Skills() {
   const skillCategories = [
     {
-      category: 'Frontend',
+      category: 'Data & Analytics',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'Next.js', level: 80 },
+        { name: 'Python', level: 85 },
+        { name: 'SQL', level: 90 },
+        { name: 'Excel & VBA', level: 95 },
+        { name: 'Tableau & Power BI', level: 80 },
+        { name: 'Statistical Analysis', level: 85 },
+        { name: 'Data Visualization', level: 88 },
       ],
     },
     {
-      category: 'Backend',
+      category: 'Programming & Development',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'REST APIs', level: 90 },
-        { name: 'Supabase', level: 85 },
+        { name: 'JavaScript/TypeScript', level: 80 },
+        { name: 'React', level: 82 },
+        { name: 'HTML & CSS', level: 90 },
+        { name: 'Database Design', level: 78 },
+        { name: 'Git & Version Control', level: 85 },
       ],
     },
     {
-      category: 'Tools & Others',
+      category: 'Soft Skills',
       skills: [
-        { name: 'Git', level: 90 },
-        { name: 'Docker', level: 75 },
-        { name: 'AWS', level: 70 },
-        { name: 'CI/CD', level: 80 },
+        { name: 'Teaching & Mentoring', level: 92 },
+        { name: 'Communication', level: 90 },
+        { name: 'Problem Solving', level: 88 },
+        { name: 'Project Management', level: 82 },
+        { name: 'Research & Analysis', level: 87 },
       ],
     },
   ];
@@ -37,7 +41,7 @@ export default function Skills() {
             Skills & Expertise
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Technologies and tools I work with to bring ideas to life
+            Technical and professional competencies developed through data analysis and education
           </p>
         </div>
 

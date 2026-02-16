@@ -115,7 +115,7 @@ export default function Contact() {
                   Want to see my full credentials? Download my CV to learn more about my experience and skills.
                 </p>
                 <a
-                  href="/cv-prajal-subedi.pdf"
+                  href="C:\Users\Jin69\Documents\important\job"
                   download
                   className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
                 >
@@ -174,11 +174,10 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isLoading}
-              className={`w-full px-8 py-4 rounded-lg font-medium transition-all duration-300 shadow-lg flex items-center justify-center gap-2 ${
-                isLoading
-                  ? 'bg-gray-400 text-white cursor-not-allowed'
-                  : 'bg-blue-600 text-white hover:bg-blue-700 hover:scale-105 hover:shadow-xl'
-              }`}
+              className={`w-full px-8 py-4 rounded-lg font-medium transition-all duration-300 shadow-lg flex items-center justify-center gap-2 ${isLoading
+                ? 'bg-gray-400 text-white cursor-not-allowed'
+                : 'bg-blue-600 text-white hover:bg-blue-700 hover:scale-105 hover:shadow-xl'
+                }`}
             >
               {isLoading ? (
                 <>

@@ -42,7 +42,7 @@ export default function Hero() {
             <Linkedin size={20} />
           </a>
           <a
-            href="mailto:prajwalsubedi824@gmail.com"
+            href="mailto:25094262d@connect.polyu.hk"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
           >
             <Mail size={20} />

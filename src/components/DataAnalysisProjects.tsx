@@ -1,46 +1,32 @@
-import { BarChart3, PieChart, TrendingUp } from 'lucide-react';
+import { Github, TrendingUp } from 'lucide-react';
 
 export default function DataAnalysisProjects() {
   const projects = [
     {
       icon: TrendingUp,
-      title: 'E-commerce Sales Analysis',
-      description: 'Analyzed customer purchasing patterns and identified key revenue drivers across product categories. Created dashboards tracking KPIs and seasonal trends.',
-      status: 'In Progress',
-      tools: ['Python', 'Pandas', 'Tableau', 'SQL'],
-    },
-    {
-      icon: BarChart3,
-      title: 'Market Research Dataset',
-      description: 'Processed and analyzed market survey data from 5000+ respondents. Performed statistical analysis to extract consumer insights and preferences.',
-      status: 'Completed',
-      tools: ['R', 'Excel', 'Statistical Analysis', 'Visualization'],
-    },
-    {
-      icon: PieChart,
-      title: 'Financial Performance Dashboard',
-      description: 'Designed interactive dashboard visualizing quarterly financial metrics. Automated data pipeline for real-time reporting and anomaly detection.',
-      status: 'In Progress',
-      tools: ['Excel', 'Power BI', 'DAX', 'Data Modeling'],
+      title: 'Air Pollution Predictor',
+      description: 'Developed a machine learning model to predict air quality levels using historical pollution data and weather patterns. Implemented data preprocessing, feature engineering, and model evaluation with high accuracy predictions.',
+      tools: ['Python', 'Pandas', 'Machine Learning', 'Data Analysis'],
+      github: 'https://github.com/prajwal859/air-pollution-predictor.git',
     },
     {
       icon: TrendingUp,
-      title: 'Social Media Analytics',
-      description: 'Tracked engagement metrics across platforms. Performed sentiment analysis and identified content strategy improvements for audience growth.',
-      status: 'Completed',
-      tools: ['Python', 'NLP', 'Data Visualization', 'Statistics'],
+      title: 'Heart Disease Analysis',
+      description: 'Comprehensive analysis of heart disease datasets including exploratory data analysis, statistical testing, and predictive modeling. Created visualizations highlighting key risk factors and disease patterns.',
+      tools: ['Python', 'Statistics', 'Data Visualization', 'Healthcare Analytics'],
+      github: 'https://github.com/prajwal859/heart-disease-analysis.git',
     },
   ];
 
   return (
-    <section id="projects" className="py-24 px-6 bg-gray-50">
+    <section id="projects" className="py-24 px-6 bg-gray-50 dark:bg-neutral-900 transition-colors">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Data Analysis Projects
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Transforming raw data into meaningful insights through comprehensive analysis and visualization
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            Real-world projects transforming data into actionable insights
           </p>
         </div>
 
@@ -48,28 +34,28 @@ export default function DataAnalysisProjects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-2"
+              className="bg-white dark:bg-neutral-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-neutral-700 hover:-translate-y-2"
             >
               <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <project.icon size={24} className="text-blue-600" />
+                <div className="w-12 h-12 bg-gray-200 dark:bg-neutral-700 rounded-lg flex items-center justify-center">
+                  <project.icon size={24} className="text-gray-700 dark:text-gray-300" />
                 </div>
-                <span
-                  className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    project.status === 'Completed'
-                      ? 'bg-green-100 text-green-700'
-                      : 'bg-yellow-100 text-yellow-700'
-                  }`}
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 bg-gray-100 dark:bg-neutral-700 rounded-lg text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                  title="View on GitHub"
                 >
-                  {project.status}
-                </span>
+                  <Github size={20} />
+                </a>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                 {project.title}
               </h3>
 
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                 {project.description}
               </p>
 
@@ -77,7 +63,7 @@ export default function DataAnalysisProjects() {
                 {project.tools.map((tool, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-medium"
+                    className="px-3 py-1 bg-gray-100 dark:bg-neutral-700 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium"
                   >
                     {tool}
                   </span>

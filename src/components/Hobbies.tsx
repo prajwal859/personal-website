@@ -25,46 +25,34 @@ export default function Hobbies() {
   ];
 
   return (
-    <section id="hobbies" className="py-24 px-6">
+    <section id="hobbies" className="py-24 px-6 bg-white dark:bg-neutral-950 transition-colors">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Hobbies & Interests
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Passions that fuel my creativity and drive continuous personal growth
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-8">
           {hobbies.map((hobby, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-2"
+              className="bg-gray-50 dark:bg-neutral-900 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-neutral-800 hover:-translate-y-2"
             >
-              <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                <hobby.icon size={28} className="text-blue-600" />
+              <div className="w-14 h-14 bg-gray-200 dark:bg-neutral-800 rounded-lg flex items-center justify-center mb-6">
+                <hobby.icon size={28} className="text-gray-700 dark:text-gray-300" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                 {hobby.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 {hobby.description}
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl border border-blue-200">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Beyond the Data
-          </h3>
-          <p className="text-gray-700 leading-relaxed">
-            I believe that a well-rounded life contributes to better problem-solving and creative thinking.
-            These hobbies and interests help me maintain a balance between professional work and personal
-            growth. Whether I'm reading about the latest data science trends, enjoying music, or mentoring
-            students, each activity brings something valuable to my career and personal development.
-          </p>
         </div>
       </div>
     </section>

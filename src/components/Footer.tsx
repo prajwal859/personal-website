@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-12 px-6">
+    <footer className="bg-gray-900 dark:bg-neutral-950 text-white py-12 px-6 transition-colors">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
@@ -17,7 +17,7 @@ export default function Footer() {
               href="https://github.com/prajwal859"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110"
             >
               <Github size={20} />
             </a>
@@ -25,13 +25,13 @@ export default function Footer() {
               href="https://www.linkedin.com/in/prajal-subedi-42a122240/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110"
             >
               <Linkedin size={20} />
             </a>
             <a
               href="mailto:prajwalsubedi824@gmail.com"
-              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-blue-600 hover:text-white transition-all duration-300 hover:scale-110"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110"
             >
               <Mail size={20} />
             </a>

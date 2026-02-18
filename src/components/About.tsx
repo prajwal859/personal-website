@@ -27,7 +27,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A data-driven professional passionate about analysis and education
+            A guy wearing glass who loves wearing black.
           </p>
         </div>
 
@@ -37,16 +37,11 @@ export default function About() {
               Transforming data into insights and inspiring growth
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-              I'm a data analyst and tutor dedicated to unlocking insights from complex datasets
-              and helping students achieve their academic goals. With a strong foundation in
-              statistical analysis and a passion for education, I combine technical expertise
-              with clear communication to make data accessible and learning engaging.
+              I'm an undergraduate student studying Applied Mathematics at the Hong Kong Polytechnic University. I enjoy writing codes, playing games, and solving integrals. In free time, I mentor students and help them achieve their academic goals. Also, I am 24/7 on my headphone listening music. I think the best way to understand other human is through their taste in music.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Whether I'm analyzing datasets or tutoring students, I believe in the power of
-              clear explanations, patience, and continuous improvement. I'm committed to
-              staying current with industry trends and helping others succeed in their
-              educational and professional journeys.
+              I also have a stronger foundation in Statistical Learning and Python Programming. My interests are among Machine Learning, Data Science, and Mathematical Modeling. I'm committed to
+              staying current with industry trends and keeping my hunger for learning continued.
             </p>
           </div>
 

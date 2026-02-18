@@ -25,6 +25,7 @@ export default function Header({ activeSection, isDark, setIsDark }: HeaderProps
     { id: 'experience', label: 'Experience' },
     { id: 'skills', label: 'Skills' },
     { id: 'hobbies', label: 'Hobbies' },
+    { id: 'photography', label: 'Photography' },
     { id: 'contact', label: 'Contact' },
   ];
 

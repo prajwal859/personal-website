@@ -5,22 +5,22 @@ export default function Hobbies() {
     {
       icon: BookOpen,
       title: 'Reading',
-      description: 'Enjoy reading books on data science, psychology, and personal development. Currently exploring machine learning concepts and behavioral economics.',
+      description: 'Immersed in classic and contemporary literature. Favorites include Osamu Dazai, Haruki Murakami (Norwegian Wood was my first completed novel), and Dostoevsky. I love exploring psychological depth and philosophical themes.',
     },
     {
       icon: Music,
-      title: 'Music',
-      description: 'Passionate about music production and listening to various genres. Find music therapeutic and often use it to enhance creativity and focus.',
+      title: 'Guitar & Music',
+      description: 'Self-taught guitarist passionate about alternative and indie music. Favorite artists: Radiohead, 1974AD, Albatross Nepal, The Edge Band. Also love Nepali folk rock and classical compositions.',
     },
     {
       icon: Zap,
-      title: 'Technology & Innovation',
-      description: 'Fascinated by emerging technologies and their real-world applications. Constantly exploring new tools and frameworks to expand my skill set.',
+      title: 'Anime & Design',
+      description: 'Anime enthusiast - One Piece, Attack on Titan, Frieren, Cowboy Bebop. Also experienced in frontend design and Figma, combining creativity with technical skills.',
     },
     {
       icon: HeartHandshake,
-      title: 'Mentoring & Volunteering',
-      description: 'Dedicated to helping others succeed. Volunteer as a tutor and mentor, finding fulfillment in supporting students achieve their academic goals.',
+      title: 'Mentoring & Community',
+      description: 'Dedicated to helping others succeed. Volunteer as a tutor and mentor, finding fulfillment in supporting students achieve their academic goals and personal growth.',
     },
   ];
 

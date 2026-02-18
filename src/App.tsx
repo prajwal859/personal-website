@@ -6,6 +6,7 @@ import DataAnalysisProjects from './components/DataAnalysisProjects';
 import WorkExperience from './components/WorkExperience';
 import Skills from './components/Skills';
 import Hobbies from './components/Hobbies';
+import Photography from './components/Photography';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -23,7 +24,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'experience', 'skills', 'hobbies', 'contact'];
+      const sections = ['home', 'about', 'projects', 'experience', 'skills', 'hobbies', 'photography', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -48,6 +49,7 @@ function App() {
       <WorkExperience />
       <Skills />
       <Hobbies />
+      <Photography />
       <Contact />
       <Footer />
     </div>

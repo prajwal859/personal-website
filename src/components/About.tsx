@@ -27,7 +27,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A guy wearing glass who loves wearing black.
+            Someone who loves wearing black.
           </p>
         </div>
 

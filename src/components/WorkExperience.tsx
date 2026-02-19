@@ -3,39 +3,36 @@ import { Briefcase, Calendar } from 'lucide-react';
 export default function WorkExperience() {
   const experiences = [
     {
-      role: 'Data Analyst',
-      company: 'Tech Solutions Ltd',
-      period: 'Current',
+      role: 'Database Administrator Intern',
+      company: 'Niyatra Consult Pvt. Ltd.',
+      period: 'Jun 2024- Jan 2025',
       duration: '1 year+',
       responsibilities: [
-        'Analyze large datasets to identify business trends and opportunities',
-        'Create interactive dashboards for stakeholder reporting',
-        'Develop SQL queries for data extraction and transformation',
-        'Present insights to leadership for strategic decision-making',
+        'Designed and maintained ETL pipelines using Python to ingest, clean, and standardize engineering project data.',
+        'Automated data validation routines with Bash scripts and cron jobs.',
+        'Implemented version control for database schemas and ETL scripts using Git/GitHub.'
       ],
     },
     {
-      role: 'Junior Data Analyst',
-      company: 'Digital Marketing Agency',
-      period: '2023 - 2024',
-      duration: '1 year',
+      role: 'SAT Tutor - Mathematics',
+      company: 'The Nirvana Education',
+      period: 'Jul 2025 - Jan 2026',
+      duration: '6+ months',
       responsibilities: [
-        'Tracked campaign performance metrics and ROI analysis',
-        'Automated data collection and reporting processes',
-        'Collaborated with marketing teams on data-driven strategies',
-        'Created visualizations for client presentations',
+        'Taught SAT Mathematics to over 300 students, with approximately 90% achieving aboive 90th percentile.',
+        'Provided additional personalized resources and handwritten notes.',
+        'Offered real-time doubt clarification and continuous support for learning.'
       ],
     },
     {
-      role: 'Statistics Tutor',
-      company: 'Education Center',
+      role: 'English Teacher',
+      company: 'SciPi Learning Centre',
       period: '2022 - Present',
       duration: '2+ years',
       responsibilities: [
-        'Taught statistics and data analysis concepts to 50+ students',
-        'Developed customized learning materials and assessments',
-        'Mentored struggling students with personalized approaches',
-        'Maintained 85% student grade improvement rate',
+        'Built a Telegram-based learning server that delivered daily reading and writing practice.',
+        'Automated distribution of curated English questions to help students build consistent study habits',
+        'Integrated news-feed bots from reputable English news sources to expose students to high quality reading'
       ],
     },
   ];

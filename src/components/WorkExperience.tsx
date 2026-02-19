@@ -27,8 +27,8 @@ export default function WorkExperience() {
     {
       role: 'English Teacher',
       company: 'SciPi Learning Centre',
-      period: '2022 - Present',
-      duration: '2+ years',
+      period: 'Nov 2023 - Dec 2025',
+      duration: '2 years',
       responsibilities: [
         'Built a Telegram-based learning server that delivered daily reading and writing practice.',
         'Automated distribution of curated English questions to help students build consistent study habits',
